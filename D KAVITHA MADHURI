@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="https://img.freepik.com/premium-vector/leaf-logo-vector-nature-symbol-template-design_606390-158.jpg?w=740" alt="">
+            </a>
+
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">About Us</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <form action="/search" method="get" class="search-bar">
+                <input type="text" name="q" placeholder="Search...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </header>
+    <main>
+      <div class="container">
+        <img src="https://as2.ftcdn.net/v2/jpg/02/56/10/07/1000_F_256100731_qNLp6MQ3FjYtA3Freu9epjhsAj2cwU9c.jpg" class="blur-image">
+        <div class="content">
+          <!-- Your content here -->
+        </div>
+      </div>
+      <div class="images">
+        <img src="https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg?w=740&t=st=1707329252~exp=1707329852~hmac=2f287d5b31376ef7cac73f5a488d400746dd5b01c651ae61a88281ebbaa5bdc0" alt="Image 1">
+        <img src="https://img.freepik.com/free-photo/morskie-oko-tatry_1204-510.jpg?w=740&t=st=1707386002~exp=1707386602~hmac=1bca43b96083ce6a165deef802015c55c7dbf8a558666a9f6891bd8ab0c7f26f" alt="Image 2">
+        <img src="https://img.freepik.com/free-photo/breathtaking-shot-beautiful-stones-turquoise-water-lake-hills-background_181624-12847.jpg?w=740&t=st=1707386053~exp=1707386653~hmac=faef4e2173fe9d7e66fb2acf40a384dfd9146962c19fc3ad0fca4f2cc530cab9" alt="Image 3">
+      </div>
+  
+      <div class="cards">
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/nature-landscape-with-vegetation-flora_23-2150859681.jpg?t=st=1707386390~exp=1707389990~hmac=55767c6b56a3d16813b8811ca58d07d09c8b80736d4a0dce03de1662fd02cb1a&w=740" alt="Card 1">
+          <div class="card-content">
+            <h3>Mountains</h3>
+            <p>Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/lagoon-white-ocean-summer-sand_1203-5354.jpg?w=740&t=st=1707386492~exp=1707387092~hmac=9f009b3482878fa35df0bcf04df74c42c7dc1f6cb0f64e490132db4c21a400e8" alt="Card 2">
+          <div class="card-content">
+            <h3>Oceans</h3>
+            <p>There is one world ocean, but it is divided into five main areas: the Pacific, the Atlantic, the Indian, the Arctic, and the Southern, or Antarctic.</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=740&t=st=1707386709~exp=1707387309~hmac=4b4b722462889897e8fcbc08a7b8e73d003b94752bce22e19daae2a937774398" alt="Card 3">
+          <div class="card-content">
+            <h3>Plants</h3>
+            <p>Plants are beneficial to us in a variety of ways. Plants offer seeds such as wheat, rice, corn, and other foods that we consume on a daily basis. Plants provide us with oxygen and take in the carbon dioxide that we release. </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+        <footer>
+            <div class="container">
+              <div class="footer-content">
+                <div class="footer-col">
+                  <h2>About Us</h2>
+                  <p></p>
+                  <a href="#">Read More</a>
+                </div>
+                <div class="footer-col">
+                  <h2>Quick Links</h2>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h2>Connect with Us</h2>
+                  <div class="social-media">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  </div>
+                </div>
+                <div class="footer-col">
+                  <h2>Newsletter</h2>
+                  <form action="/subscribe" method="post">
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <p>&copy; 2024 Your Website Name. All Rights Reserved.</p>
+              </div>
+            </div>
+          </footer>
+
+</body>
+</html>
